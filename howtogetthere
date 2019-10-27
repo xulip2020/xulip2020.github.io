@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>XuLip2020</title>
+    <meta name="description" content="Free Bootstrap Theme by uicookies.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    
+    <link href="https://fonts.googleapis.com/css?family=Alice|Zilla+Slab:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <!-- Fixed navbar -->
+     <!-- navbar-fixed-top -->
+    <nav class="navbar navbar-default probootstrap-navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" title="uiCookies:Wedding">Linda <em>&amp;</em> Nathan</a>
+        </div>
+
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" data-nav-section="how-we-met">How We Met</a></li>
+            <li><a href="#" data-nav-section="how-he-asked">How He Asked</a></li>
+            <li><a href="#" data-nav-section="why-lake-como">Why Lake Como</a></li>
+            <li><a href="#" data-nav-section="how-to-get-there">How To Get There</a></li>
+            <li><a href="#" data-nav-section="where-to-stay">Where To Stay</a></li>
+            <li><a href="#" data-nav-section="how-to-get-there">What To Do There</a></li>
+            <li><a href="#" data-nav-section="how-to-get-there">Schedule</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="probootstrap-section probootstrap-section" data-section="how-to-get-there">
+        <div class="container">
+            <div class="row mb40 text-center">
+                <div class="col-md-12 probootstrap-animate"><h2 class="mt0">How To Get There</h2></div>
+            </div>
+            
+            <div class="col-md-12 text-center">
+                <img src="img/como_map.png" class="text-center"> </img>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12 probootstrap-animate">
+                    <p>
+                    There are three main airports in Milan: Malpensa (MXP), Linate (LIN), and Bergamo (BGY). Most, if not all, of the international flights will go through Malpensa, so the guide below is tailored to that landing spot. If you land in Bergamo or Linate, the adjustments listed will be to your train schedule.
+                    </p>
+                    
+                    <p>
+                    There are three main options for getting from MXP to Varenna, our home base for the weekend:
+                    </p>
+                    
+                    <p>
+                    1. Take the train! It does require a connection and it will take a couple hours, but it is an absolutely beautiful ride - the route is indicated in the picture on the blue line. Here are the instructions:
+                        <p style="margin-left: 40px"> a. Head to the airport rail station and buy tickets from MXP to Milano Centrale on the Malpensa Express and also Milano Centrale to Varenna-Esino. You can also buy these tickets online (http://store.trenord.it/trenord-rail-tickets and http://www.italiarail.com). </p>
+                    
+                        <p style="margin-left: 40px">
+                            b. Head onto the Malpensa Express! It will only take a half hour from the airport to the first and last stop, Milano Centrale. Make sure you get on the Centrale train! </p>
+                    
+                            <p style="margin-left: 80px">i. You do need to validate tickets, so make sure you do so at the machines </p>
+                    
+                    <p style="margin-left: 40px">
+                    c. Find the train to Varenna, which you can also purchase online at ItaliaRail. This trip will take about an hour and will have stops. We’d recommend that you find a seat on the left side facing forward so you can maximize your views! </p>
+                    <p style="margin-left: 80px"> i. Validate! </p>
+                    
+                    <p style="margin-left: 40px">
+                    d. If you’re landing at Linate, it’ll be easier to get to Centrale (there’s a bus). If you’re landing at Bergamo, there’s a bus to the train station in Bergamo, where you can hop on the train to Varenna, which is a bit shorter of a ride. </p>
+                    
+                    <p style="margin-left: 40px">
+                    e. All in all, this should take an hour and a half plus some buffer and cost ~$25 per person (less from LIN or BGY).
+                    </p>
+                    
+                    <p>
+                    2. Get a car! From all three airports, it’s a scenic 60-90 minute drive (from MXP, it follows the red line). This will somewhat depend on the parking situation at your accommodation, but will make exploring the area incrementally easier. All in all, this is our least recommended option because of parking and cost of a rental car for 3-4 days.
+                    </p>
+                    
+                    <p>
+                    3. Call an Uber or private car! This will run you EUR125-175, depending on which company you use. That’s expensive, but it’s basically the same as a train if you can buddy up and easily the quickest option. Assuming someone else is on your flight or arriving at a similar time, this is the most recommended option. Closer to the date, we’ll ask for flight information so we can help people find reasonable transportation.
+                    </p>
+                    
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/scripts.min.js"></script>
+    <script src="js/custom.min.js"></script>
+
+    <!-- Google Map
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+      -->
+
+  </body>
+</html>
