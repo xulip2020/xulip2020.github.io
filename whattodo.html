@@ -6,70 +6,119 @@
     <title>XuLip2020</title>
     <meta name="description" content="Free Bootstrap Theme by uicookies.com">
     <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
-    
     <link href="https://fonts.googleapis.com/css?family=Alice|Zilla+Slab:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/styles-merged.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <style>
+      .container1 {
+        padding: 4px 16px;
+        background: #FFF0F5;
+        color: #C0C0C0;
+        font-size: 15px;
+      }
+      
+      .container2 {
+        padding: 4px 32x;
+        background: #FDF5E6;
+        color: #191970;
+        font-size: 25px;
+      }
 
+      .container4 {
+        padding: 10px 16x;
+      }
+      
+      .body {
+        padding: 16px;
+      }
+
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+      .sticky + .body {
+        padding-top: 102px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      
+      .row1 {
+        display: flex;
+      }
+
+      .row2 {
+        padding: 4px 4x;
+        color: #191970;
+        font-size: 40px;
+      }
+
+      .column1 {
+        flex: 50%;
+        padding: 5px;
+      }
+    </style>
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
       <script src="js/vendor/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-    
-    <!-- Fixed navbar -->
-     <!-- navbar-fixed-top -->
-    <nav class="navbar navbar-default probootstrap-navbar">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html" title="uiCookies:Wedding">Linda <em>&amp;</em> Nathan</a>
-        </div>
-
-        <div id="navbar-collapse" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://xulip2020.com/howwetmet">How We Met</a></li>
-            <li><a href="http://xulip2020.com/howheasked">How He Asked</a></li>
-            <li><a href="http://xulip2020.com/whylakecomo">Why Lake Como</a></li>
-            <li><a href="http://xulip2020.com/howtogetthere">How To Get There</a></li>
-            <li><a href="http://xulip2020.com/wheretostay">Where To Stay</a></li>
-            <li><a href="http://xulip2020.com/whattodo">What To Do There</a></li>
-            <li><a href="http://xulip2020.com/schedule">Schedule</a></li>
-          </ul>
+  
+  <div class="header" id="myHeader">
+    <div class="container1">
+      <div class="row">
+        <div class="col-sm-4" style="text-align:center;">Linda Xu and Nathan Lipkin</div>
+        <div class="col-sm-4" style="text-align:center;">Lake Como, Italy</div>
+        <div class="col-sm-4" style="text-align:center;">September 5, 2020</div>
+      </div>
+    </div>
+    <div class="container2">
+      <div id="navbar-collapse" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-center" style="text-align:center">
+          <li><a href="http://xulip2020.com/">Welcome</a></li>
+          <li><a href="http://xulip2020.com/howwetmet">How We Met</a></li>
+          <li><a href="http://xulip2020.com/howheasked">How He Asked</a></li>
+          <li><a href="http://xulip2020.com/whylakecomo">Why Lake Como</a></li>
+          <li><a href="http://xulip2020.com/howtogetthere">How To Get There</a></li>
+          <li><a href="http://xulip2020.com/wheretostay">Where To Stay</a></li>
+          <li><a href="http://xulip2020.com/whattodo">What To Do There</a></li>
+          <li><a href="http://xulip2020.com/schedule">Schedule</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <body> 
+    <div class="container 4">
+      <div class="row2">
+        <div class="col" style="text-align:center">What To Do There</div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>Work in progress...
+          </p>
         </div>
       </div>
-    </nav>
-    
-    <div class="probootstrap-section probootstrap-section" data-section="what-to-do-there">
-        <div class="container">
-            <div class="row mb40 text-center">
-                <div class="col-md-12 probootstrap-animate"><h2 class="mt0">What To Do There</h2></div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 probootstrap-animate">
-                    <p>
-                    Work In Progress...
-                    </p>
-                    
-                    
-                </div>
-            </div>
-        </div>
-    </div>
+    </div>    
 
     <script src="js/scripts.min.js"></script>
     <script src="js/custom.min.js"></script>
+    <script>
+      window.onscroll = function() {myFunction()};
 
-    <!-- Google Map
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="js/google-map.js"></script>
-      -->
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
 
   </body>
 </html>
